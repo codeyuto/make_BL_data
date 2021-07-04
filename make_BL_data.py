@@ -2,7 +2,10 @@ import csv
 count=0
 data=[]
 data.append(["index","year","title","attribute","us"])
-year=input("何年")
+year=input("何年:")
+
+#0→受け、1→攻め
+#タイトルで「c.」を入力すると終了する
 
 while(1):
 
