@@ -12,10 +12,10 @@ while(1):
         break
     else:
         seme=input("攻め:")
-        data.append([count,2021,title,seme,1])
+        data.append([count,year,title,seme,1])
         count+=1
         uke=input("受け:")
-        data.append([count,2021,title,uke,0])
+        data.append([count,year,title,uke,0])
         count+=1
 
 with open("BL_data_"+year+".csv","w",encoding="utf-8",newline="") as f:
